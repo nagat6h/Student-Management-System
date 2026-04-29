@@ -1,7 +1,7 @@
 from django.db import models
 
 # Create your models here.
-class product(models.Model):
+class Student(models.Model):
     name = models.CharField(max_length=100, unique=True)
     email = models.EmailField(unique=True)
     phone = models.CharField(max_length=15)
